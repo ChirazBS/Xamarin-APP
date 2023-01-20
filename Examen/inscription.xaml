@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.inscription"
+             BackgroundColor="#ffe9e3">
+
+    <StackLayout>
+        <Frame BackgroundColor="#ffcbcb" Padding="24" CornerRadius="0">
+            <Label Text="Please Fill in the Form ^^" HorizontalTextAlignment="Center" TextColor="#132743" FontSize="28"/>
+        </Frame>
+        <StackLayout  Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+
+            <Entry x:Name="UserName" TextColor="Black" Placeholder="UserName" PlaceholderColor="Black"   
+                           HeightRequest="40" />
+
+            <Entry x:Name="Email" TextColor="Black" Placeholder="Email" PlaceholderColor="Black"   
+                           HeightRequest="40"   
+                           Keyboard="Email"  />
+
+            <Entry x:Name="Password" TextColor="Black"  Placeholder="Password" PlaceholderColor="Black"
+                           HeightRequest="40"   
+                           IsPassword="True"  />
+
+            <Button Text="Register" Clicked="GotoLogin" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"  
+                    BackgroundColor="LightPink"
+                    BorderColor="HotPink"
+                    BorderWidth="1.5"
+                    CornerRadius="50" />
+            
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

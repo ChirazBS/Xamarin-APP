@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.home" BackgroundColor="#d5def5"
+             NavigationPage.HasNavigationBar="True">
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+            <Frame BackgroundColor="#8594e4" Padding="24" CornerRadius="0">
+                <Label Text="Welcome!" HorizontalTextAlignment="Center" TextColor="#6643b5" FontSize="36"/>
+            </Frame>
+            <Button Text="Cars" FontSize="Title" Clicked="cars" BackgroundColor="#430f58" BorderColor="#8594e4" BorderWidth="1.5"
+                    CornerRadius="50" />
+            <Button Text="ISET" FontSize="Title" Clicked="iset"  BackgroundColor="#430f58" BorderColor="#8594e4" BorderWidth="1.5"
+                    CornerRadius="50" />
+            <Button Text="Store" FontSize="Title" Clicked="shop" BackgroundColor="#430f58" BorderColor="#8594e4" BorderWidth="1.5"
+                    CornerRadius="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

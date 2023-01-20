@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.iset" BackgroundColor="#d5def5"
+            NavigationPage.HasNavigationBar="False">
+    <ContentPage Title="Technologies d'informatique">
+        <StackLayout>
+            <Label Text="Le Chef de Département:" TextColor="#27296d" FontAttributes="Bold" />
+            <Label Text= "Saadaoui Abdelkader" TextColor="Black"/>
+            <Label Text="Numero de Telephone" TextColor="#27296d" FontAttributes="Bold" />
+            <Label Text="71 460 600"  TextColor="Black"/>
+            <Label Text="Email:" TextColor="#27296d" FontAttributes="Bold" />
+            <Label Text="itdep@gmail.com"  TextColor="Black"/>
+            <Label Text= "A propos:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="Ce Département Forme des Techniciens Supérieurs en informatique et technologies de l'information capables de participer au développement du système d'information de l'entreprise aussi bien sur le plan matériel que logiciel."  TextColor="Black" />
+           
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Génie Mécanique" >
+        <StackLayout>
+            <Label Text="Le Chef de Département:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text= "Mourad Ben Afia" TextColor="Black"/>
+            <Label Text="Numero de Telephone" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text=" 71 460 100"  TextColor="Black"/>
+            <Label Text="Email:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="mecdep@gmail.com"  TextColor="Black"/>
+            <Label Text= "A propos:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="Ce Département contient 8 salles de cours 22 laboratoires Atelier de production Ressources humaines 57 enseignants permanents 05 enseignants d'autres départements 12 enseignants vacataire "  TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Economiques Et Gestion">
+        <StackLayout>
+            <Label Text="Le Chef de Département:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text= "Mourad Ben Afia" TextColor="Black"/>
+            <Label Text="Numero de Telephone" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text=" 71 460 100"  TextColor="Black"/>
+            <Label Text="Email:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="gest@gmail.com"  TextColor="Black"/>
+            <Label Text= "A propos:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="Le département sciences économiques et de gestion regroupe toutes les formations du secteur tertiaire demandées par le marché. Les profils de formation spécialisés et pointus concernent des domaines variés allant des techniques comptables et financières aux techniques de vente et de communication publicitaire en passant par la logistique et le transport international."  TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Génie Eléctrique">
+        <StackLayout>
+            <Label Text="Le Chef de Département:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text= "Med faouzi fazani" TextColor="Black"/>
+            <Label Text="Numero de Telephone" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text=" 71 460 100"  TextColor="Black"/>
+            <Label Text="Email:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="depelec@gmail.com"  TextColor="Black"/>
+            <Label Text= "A propos:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="Ce Département forme des techniciens supérieurs dans tous les domaines liés aux systèmes industriels qui dépendent principalement de l'énergie électrique pour la production et la fourniture de divers services en acquérant toutes les compétences pour les programmer, les exploiter, les entretenir et les surveiller tout en assurant tous les mécanismes de sécurité au travail et le sécurité de tous les équipements et composants des systèmes électriques. "  TextColor="Black"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Génie Civil">
+        <StackLayout>
+            <Label Text="Le Chef de Département:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text= "Mansouri JOMLI" TextColor="Black"/>
+            <Label Text="Numero de Telephone" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text=" 71 460 100"  TextColor="Black"/>
+            <Label Text="Email:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="geniecivil@gmail.com"  TextColor="Black"/>
+            <Label Text= "A propos:" TextColor="#27296d" FontAttributes="Bold"/>
+            <Label Text="Ce Département a démarré en Septembre 1996. Il regroupe des enseignants et des équipements de spécialité,totalement à la disposition des étudiants préparant une L.A.GC"  TextColor="Black" />
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

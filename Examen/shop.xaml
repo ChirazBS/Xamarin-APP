@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.shop" BackgroundColor="#d5def5"
+             xmlns:local="clr-namespace:Examen" Title="Products"
+              NavigationPage.HasNavigationBar="True">
+
+    <StackLayout>
+        <SearchBar Placeholder="Search Products" PlaceholderColor="#430f58"
+                   TextChanged="txtChanged"/>
+        <Button Text="Add"
+                Clicked="ToolbarItem_Clicked"
+                FontAttributes="Bold" FontSize="Large"
+                    BackgroundColor="#430f58"
+                    BorderColor="#8594e4"
+                    BorderWidth="1.5"
+                      />
+        <CollectionView x:Name="product"
+                     SelectionMode="Single"
+                     Margin="20,5,20,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Edit"
+                                           BackgroundColor="LightBlue"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_Invoked"/>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="MediumPurple"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_Invoked_1"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+
+                        <StackLayout >
+                           
+                                <Label Text="{Binding Name}"
+                                   VerticalOptions="CenterAndExpand"
+                                   FontSize="25" TextColor="Black"
+                                   FontAttributes="Bold"
+                                       />
+   
+                                <Label Text="{Binding Price}"
+                                       VerticalOptions="CenterAndExpand"
+                                       FontSize="16"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                      />
+                                <Label Text="{Binding Description}"
+                                      TextColor="Black"
+                                       FontSize="20" 
+                                      />
+                            
+                        </StackLayout>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
